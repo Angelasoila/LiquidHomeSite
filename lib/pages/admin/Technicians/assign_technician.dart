@@ -40,7 +40,7 @@ class _AssignTechnicianDialogState extends State<AssignTechnicianDialog> {
               const Text('Assign Technician'),
               const SizedBox(height: 6),
               DropdownButtonFormField<String>(
-                value: selectedTechnician,
+                initialValue: selectedTechnician,
                 hint: const Text('Select technician'),
                 items: technicians
                     .map(

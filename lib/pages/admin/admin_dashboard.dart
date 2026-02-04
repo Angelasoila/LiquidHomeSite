@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'admin_sidebar.dart';
-import 'admin_topbar.dart';
-import 'dashboard_cards.dart';
-import 'installations_table.dart';
+import '../../widgets/admin_sidebar.dart';
+import '../../widgets/admin_topbar.dart';
+import 'Dashboard/dashboard_cards.dart';
+import 'Dashboard/installations_table.dart';
 class AdminDashboardPage extends StatelessWidget {
   const AdminDashboardPage({super.key});
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../Dashboard/admin_sidebar.dart';
-import '../Dashboard/admin_topbar.dart';
+import '../../../widgets/admin_sidebar.dart';
+import '../../../widgets/admin_topbar.dart';
 import 'datamodel.dart';
 
 class TechniciansPage extends StatelessWidget {
